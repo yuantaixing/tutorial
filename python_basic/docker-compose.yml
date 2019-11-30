@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  requests_test_server:
+    image: kennethreitz/httpbin
+    ports:
+      - "80:80"
+    networks:
+      - yjsmf-net
+
+
+
