@@ -21,10 +21,10 @@ def request_session_test():
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0"
     }
     login_url = "https://accounts.douban.com/j/mobile/login/basic"
-    "ck=&=13135767989&password=4833123&=false&ticket="
+    "ck=&=13135767689&password=4833123&=false&ticket="
     data = {
-        "name": "13135767989",
-        "password": "4833123yuan",
+        "name": "131357679559",
+        "password": "48331212af1uan",
         "remember": "false"
     }
     session = requests.Session()

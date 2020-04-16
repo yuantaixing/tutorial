@@ -10,7 +10,7 @@ session = requests.Session()
 def login():
     data = {
         "name": "13135767989",
-        "password": "4833123yuan",
+        "password": "4833121fuan",
         "remember": "false"
     }
     session.post(login_url, data=data, headers=headers)

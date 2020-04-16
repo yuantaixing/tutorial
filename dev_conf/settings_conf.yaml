@@ -1,0 +1,35 @@
+###################Database配置##################
+Database:
+  dbname: 'demo_cmdb'
+  user: 'admin'
+  password: 'pwd@8182018'
+  host: '192.168.7.115'
+  port: 3306
+
+################### LDAP 配置#####################
+LDAP:
+  ldappath: 'ldap://192.168.7.229:389/'
+  ldapuser: 'cn=Manager,dc=ldap,dc=gomeo2o,dc=cn'
+  ldappass: 'xrwfvyBBBT!DkK05'
+  baseDN: 'ou=People, dc=ldap,dc=gomeo2o,dc=cn'
+
+################### SESSION 配置#####################
+SESSION:
+  COOKIE_DOMAIN: ''
+
+
+AkamaiDoamin:
+  get_domain_url: "/config-dns/v1/zones/"
+  general_access_token: "akab-eh6n236hb5xohvjv-neisynynk5jkarh5"
+  general_open_url: "https://akab-mhe4wsa6f6e3nqrs-tzg3lklea3yy5sd5.luna.akamaiapis.net"
+  general_client_token: "akab-km3oqsz4uqhd7e4v-t3zsfrhzzufi7zry"
+  general_client_secret: "zh1cDTEPZZ6rtU7mpJWv/hfM8wfD5b3TplbpBGDgLrs="
+  threads: 10
+
+
+################### Rabbit 配置#####################
+broken_url:
+ - 'amqp://cmdb:cmdbadmin@192.168.7.115:5672/new_cmdb'
+
+
+
